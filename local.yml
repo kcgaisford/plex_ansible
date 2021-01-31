@@ -1,3 +1,5 @@
+---
+
 - hosts: localhost
   connection: local
   become: true
@@ -13,3 +15,6 @@
     - include: tasks/updates.yml
     - include: tasks/users.yml
     - include: tasks/cron.yml
+
+  handlers:
+    - include: tasks/handlers/restart_plex.yml

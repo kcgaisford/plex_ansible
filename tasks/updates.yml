@@ -1,6 +1,5 @@
 ---
 
 - name: Install Updates
-  yum: 
+  yum:
     name: '*'
-    state: latest
