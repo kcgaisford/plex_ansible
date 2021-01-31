@@ -1,1 +1,1 @@
-ansible All=(All)   ALL
+ansible All=(All)   NOPASSWD: ALL
